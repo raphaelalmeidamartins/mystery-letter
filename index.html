@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <title>Mistery Letter - Raphael Martins</title>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Carta Misteriosa</h1>
+    </header>
+    <section id="input-panel">
+      <label for="carta-text">Texto da carta: </label>
+      <input type="text" name="carta-texto" id="carta-texto" maxlength="99">
+      <button id="criar-carta">Gerar carta</button>
+      <div id="contador-container"><span id="label-contador">Contador de palavras: </span><p id="carta-contador">0</p></div>
+    </section>
+    <section id="carta-container">
+      <img src="images/note-pad-optimized.png" alt="background carta">
+      <p id="carta-gerada"></p>
+    </section>
+  </main>
+  <footer>
+    <p>Projeto de HTML, CSS e JavaScript desenvolvido por <a href="https://www.linkedin.com/in/raphaelameidamartins/" rel="external">Raphael Martins</a>, todos os direitos reservados.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
