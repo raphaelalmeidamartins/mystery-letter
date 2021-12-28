@@ -6,7 +6,7 @@
 <h2>:brazil: Português</h2>
 <p id="pt">Projeto de HTML, CSS e JavaScript desenvolvido por mim (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) ao final do Bloco 5 do Módulo 1 do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. Obtive aprovação com 100% dos requisitos obrigatórios e opcionais atingidos, e seguindo as todas as regras de padronização do código e boas práticas do Linter.</p>
 <p>O projeto consistiu no desenvolvimento de uma página dinâmica que quando a pessoa usuária inserir um texto, é gerada uma carta em que cada palavra possui uma estilização aleatória.</p>
-<p><a href="https://raphaelalmeidamartins.github.io/project-mistery-letter/" target="_blank">Clique aqui</a> para conferir o resultado do projeto no navegador.</p>
+<p><a href="https://raphaelalmeidamartins.github.io/project-mystery-letter/" target="_blank">Clique aqui</a> para conferir o resultado do projeto no navegador.</p>
 
 ![Minha nota no projeto - My grade of the project](./nota.png)
 
@@ -115,7 +115,7 @@
 <h2 id="en">:us: English</h2>
 <p>Project of HTML, CSS and JavaScript develop by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) in the end of the Unit 5 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met, and following all the Linter rules of best practices and code standardization.</p>
 <p>We had to develop a dynamic web page that when the user inserts a text, a letter is generated, with each word having a randomly selected style.</p>
-<p><a href="https://raphaelalmeidamartins.github.io/project-mistery-letter/" target="_blank">Click here</a> to check out the final version of the project on your browser.</p>
+<p><a href="https://raphaelalmeidamartins.github.io/project-mystery-letter/" target="_blank">Click here</a> to check out the final version of the project on your browser.</p>
 
 ![My grade of the project - Minha nota no projeto](./nota.png)
 
@@ -123,10 +123,10 @@
 <ol>
   <li>There should be an input element with <code>id="carta-texto"</code> where the user can type the content of the letter</li>
   <li>There should be a paragraph element with <code>id="carta-gerada"</code> where the content of the letter is going to be displayed</li>
-  <li>Your page also needs to have a button element with <code>id="criar-carta"</code>, and when the user clicks in this button, the mistery letter should be generated
+  <li>Your page also needs to have a button element with <code>id="criar-carta"</code>, and when the user clicks in this button, the mystery letter should be generated
     <ul>
       <li>Each word should be displayed inside a <code>span</code> tag.</li>
-      <li>The <code>span</code> tags should be added as childs of the element paragraph identified with <code>carta-gerada</code> as its <code>id</code>.</li>
+      <li>The <code>span</code> tags should be added as children of the element paragraph identified with <code>carta-gerada</code> as its <code>id</code>.</li>
     </ul>
   </li>
   <li>When the user clicks in the button with <code>id="criar-carta"</code>, the typed text should still be inside the input element with <code>id="carta-texto"</code></li>
@@ -211,7 +211,7 @@
 
 ### Bonus
 <ol start="17">
-  <li>With a mistery letter generated, it should be possible to switch (randomly) the style of a word by clicking in it
+  <li>With a mystery letter generated, it should be possible to switch (randomly) the style of a word by clicking in it
     <ul>
       <li>When clicking in a word, another <strong>random</strong> style should be applied to it.</li>
       <li>The number of changes should be unlimited;</li>
