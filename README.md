@@ -2,7 +2,7 @@
 
 ![Prévia da página - Preview of the page](./preview.gif)
 
-# Color Guess
+# Mystery Letter
 <h2>:brazil: Português</h2>
 <p id="pt">Projeto de HTML, CSS e JavaScript desenvolvido por mim (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) ao final do Bloco 5 do Módulo 1 do curso de Desenvolvimento Web da <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. Obtive aprovação com 100% dos requisitos obrigatórios e opcionais atingidos, e seguindo as todas as regras de padronização do código e boas práticas do Linter.</p>
 <p>O projeto consistiu no desenvolvimento de uma página dinâmica que quando a pessoa usuária inserir um texto, é gerada uma carta em que cada palavra possui uma estilização aleatória.</p>
