@@ -114,7 +114,7 @@
 
 <h2 id="en">:us: English</h2>
 <p>Project of HTML, CSS, and JavaScript developed by me (<a href="https://www.linkedin.com/in/raphaelameidamartins/" target="_blank" rel="external">Raphael Martins</a>) at the end of the Unit 5 Module 1 of the Web Development course at <a href="https://www.betrybe.com" targe="_blank" rel="nofollow">Trybe</a>. I was approved with 100% of the mandatory and optional requirements met.</p>
-<p>We had to develop a dynamic web page that when the user inserts a text, a letter is generated, with each word having a randomly selected style.</p>
+<p>We developed a dynamic web page that generates a letter when the user inserts a text. Each word of the text should have a randomly selected style.</p>
 <p><a href="https://raphaelalmeidamartins.github.io/project-mystery-letter/" target="_blank">Click here</a> to check out the final version of the project on your browser.</p>
 
 ![My grade of the project - Minha nota no projeto](./nota.png)
