@@ -123,13 +123,13 @@
 <ol>
   <li>There should be an input element with <code>id="carta-texto"</code> where the user can type the content of the letter</li>
   <li>There should be a paragraph element with <code>id="carta-gerada"</code> where the content of the letter is going to be displayed</li>
-  <li>Your page also needs to have a button element with <code>id="criar-carta"</code>, and when the user clicks on this button, the mystery letter should be generated
+  <li>Your page also needs to have a button element with <code>id="criar-carta"</code>, and when the user clicks this button, the mystery letter should be generated
     <ul>
       <li>Each word should be displayed inside a <code>span</code> tag.</li>
       <li>The <code>span</code> tags should be added as children of the element paragraph identified with <code>carta-gerada</code> as its <code>id</code>.</li>
     </ul>
   </li>
-  <li>When the user clicks on the button with <code>id="criar-carta"</code>, the typed text should still be inside the input element with <code>id="carta-texto"</code></li>
+  <li>When the user clicks the button with <code>id="criar-carta"</code>, the typed text should still be inside the input element with <code>id="carta-texto"</code></li>
   <li>If the user doesn't type anything in the input element or only types empty spaces, the message <em>'Por favor, digite o conteúdo da carta.'</em> (<code>"Please, type the content of the letter"</code>) should be displayed inside the paragraph element with <code>carta-gerada</code> as its <code>id</code></li>
   <li>Create the class <code>newspaper</code> with the following properties:
     <ul>
@@ -211,9 +211,9 @@
 
 ### Bonus
 <ol start="17">
-  <li>With a mystery letter generated, it should be possible to switch (randomly) the style of a word by clicking on it
+  <li>With a mystery letter generated, it should be possible to switch (randomly) the style of a word by clicking it
     <ul>
-      <li>When clicking on a word, another <strong>random</strong> style should be applied to it.</li>
+      <li>When clicking a word, another <strong>random</strong> style should be applied to it.</li>
       <li>The number of changes should be unlimited;</li>
     </ul>
   </li>
