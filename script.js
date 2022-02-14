@@ -47,13 +47,13 @@ function updateHowManyWords(length) {
 function generateLetter() {
   letter.innerHTML = '';
   if (inputLetterText.value === '' || isTextInvalid()) {
-    letter.innerHTML = 'Por favor, digite o conteúdo da carta.';
+    letter.innerHTML = 'Please, enter the content of the letter.';
   } else {
     const arrayWords = inputLetterText.value.split(' ');
     updateHowManyWords(arrayWords.length);
     for (let i = 0; i < arrayWords.length; i += 1) {
       const newWord = document.createElement('span');
-      newWord.innerHTML = arrayWords[i];
+      newWord.textContent = arrayWords[i];
       newWord.className = generateRandomClassList();
       newWord.addEventListener('click', switchClassList);
       letter.appendChild(newWord);
